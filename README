@@ -25,7 +25,7 @@ So here is a step by step guide how i managed to run the printer with Antix Linu
 6. Type command: ./configure --prefix=/usr  (i executed it without --prefix=/usr,  only ./configure worked for me)
 7. Type command: sudo make install
 8. Now from the directory epsoneplijs copy a freshy compiled file ijs_server_epsonepl to folder /usr/bin (you can do that with midnight commander as root)
-9. Download file: 6200L-Hardy.ppd  
+9. Download file: EPL-6200L-Hardy.ppd  
 10. Connect your printer to your computer and turn it on. (You can do it in the beginning, but at least now you need it connected and powered on.)
 11. Reboot computer
 12. Go to System Settings → Printing → click “Add” and choose from the list Epson AL-M1200.
